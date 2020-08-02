@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>USD-ILS calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="usdilscalculator.ico"/>
+  </head>
+  <body>
+    <hr>
+    <h1 id="hl">USD and ILS money calculator</h1>
+    <p id="p"></p>
+    <hr>
+    <p id="p2">Shekel to Dollar</p>
+    <input placeholder="Type..." type="number" id="std">
+    <button id="bstd" onclick="std()">Calculate!</button>
+    <hr>
+    <p id="p3">Dollar to Shekel</p>
+    <input placeholder="Type..." type="number" id="dts">
+    <button id="bdts" onclick="dts()">Calculate!</button>
+    <hr>
+    <button onclick="window.location.reload();" id="refresh">Clear</button>
+    <hr>
+    <script src="script.js">
+    </script>
+  </body>
+</html>
